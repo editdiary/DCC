@@ -33,3 +33,11 @@ dataset/
 └── validation_label/
     └── (validation label files)
 ```
+
+## [24/09/30]
+
+### Update 3
+> [Mission 1-2] skeletal code로 생각해주시면 좋을 것 같습니다.
+> Google Drive 경로만 맞춰주시면 코드는 아마 정상적으로 작동할 것입니다.
+> 기본 코드만 작성해둔 것이다 보니 학습을 진행해도 성능은 좋지 않게 나올 것으로 생각됩니다.
+> 데이터 전처리, 파라미터 설정, 세부 사항 변경은 추후 회의 간 상의하면 될 것 같습니다. 
