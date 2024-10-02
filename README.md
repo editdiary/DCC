@@ -42,3 +42,13 @@ dataset/
 > Google Drive 경로만 맞춰주시면 코드는 아마 정상적으로 작동할 것입니다.<br>
 > 기본 코드만 작성해둔 것이다 보니 학습을 진행해도 성능은 좋지 않게 나올 것으로 생각됩니다.<br>
 > 데이터 전처리, 파라미터 설정, 세부 사항 변경은 추후 회의 간 상의하면 될 것 같습니다. 
+
+
+## [24/10/02]
+
+### Update 4
+> 추후 mission2의 결과물도 저장하기 위해, mission1-1의 csv 파일의 파일명을 수정했습니다.<br>
+> - 수정 전: `train_metadata.csv` / 수정 후: `train_mission1-1.csv`
+> - 수정 전: `val_metadata.csv` / 수정 후: `val_mission1-1.csv`
+>
+> 이에 따라 `mission1-1.ipynb` 파일의 마지막 csv 저장 부분 코드도 약간 수정 되었습니다.
