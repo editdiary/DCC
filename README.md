@@ -12,7 +12,6 @@
 > [Mission 1-1]은 해결했습니다.<br>
 > 자세한 내용은 `/dataset` 폴더에서 확인하실 수 있습니다.
 
-### Update 2
 > `categorize_img.py`는 실행하면 이미지를 복사하여 class(style)별로 분류해주는 코드입니다. 이후 분류 모델을 학습 시킬 때 편하지 않을까 싶어 작성했습니다.
 >
 > dataset의 크기가 크다보니 폴더만 만들어두었습니다.<br>
@@ -36,7 +35,7 @@ dataset/
 
 ## [24/09/30]
 
-### Update 3
+### Update 2
 > [Mission 1-2] skeletal code로 생각해주시면 좋을 것 같습니다.<br>
 >
 > Google Drive 경로만 맞춰주시면 코드는 아마 정상적으로 작동할 것입니다.<br>
@@ -46,9 +45,19 @@ dataset/
 
 ## [24/10/02]
 
-### Update 4
+### Update 3
 > 추후 mission2의 결과물도 저장하기 위해, mission1-1의 csv 파일의 파일명을 수정했습니다.<br>
 > - 수정 전: `train_metadata.csv` / 수정 후: `train_mission1-1.csv`
 > - 수정 전: `val_metadata.csv` / 수정 후: `val_mission1-1.csv`
 >
 > 이에 따라 `mission1-1.ipynb` 파일의 마지막 csv 저장 부분 코드도 약간 수정 되었습니다.
+
+### Update 4
+> [Mission 2-1] 해결했습니다. 자세한 코드는 `mission2-1.ipynb`를 확인해주세요<br>
+> 결과 파일은 1-1처럼 csv로 저장해뒀습니다. 파일은 `/filtered_labels` 폴더에서 확인하실 수 있습니다.
+
+> `filtering_labels.py` 파일을 만들었습니다.<br>
+> [Mission 2]부터는 image 파일과 label 파일을 비교하여 유효한 data만 사용해야 합니다.<br>
+> 이를 위해서 유효한 데이터만 filtering 하여 `/filtered_labels` 폴더에 복사하는 코드를 작성했습니다.<br>
+> 필터링 되어 유효하지 않은 데이터의 경우 `/filtered_labels/invalid` 폴더에 모이도록 하였습니다.<br>
+> Update1에서 사용했던 데이터의 폴더 구조가 그대로 있다면 특별히 경로를 설정하지 않으셔도 괜찮지 않을까 싶습니다.
