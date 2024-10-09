@@ -30,6 +30,12 @@
 
 ## Update 5(2024/10/06)
 > [Mission 1-2]의 train_model과 validate_model 부분을 분리한 후 다시 올려두었습니다.<br>
-> 기존의 코드는 train과 validate를 동시에 진행한 후 Epoch마다 pth 파일을 저장하는 방식이었으나 학습 시간이 지나치게 오래 걸려 수정했습니다<br>
+> 기존의 코드는 train과 validate를 동시에 진행한 후 Epoch마다 pth 파일을 저장하는 방식이었으나 학습 시간이 지나치게 오래 걸려 수정했습니다.<br>
 > 현재 학습을 진행 중이며 Epoch 10번을 기준으로 한다면 train에만 8시간정도가 예상됩니다.<br>
 > 학습이 종료되면 train과 validate 결과도 업데이트 해두겠습니다.<br>
+
+
+## Update 6(2024/10/09)
+> [Mission 1-2]를 base skeletal code 업로드하였습니다.<br>
+> ____ 처리한 부분만 수정하면 아마 정상 작동할 것으로 예상됩니다.<br>
+> 수정 필요해 보이는 부분 있으면 수정 후 다시 업로드해주시면 됩니다.<br>
