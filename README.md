@@ -43,3 +43,7 @@ dataset/
 > `resize_img.py` 파일을 추가했습니다.<br>
 > 원본 이미지를 ResNet18에 입력되는 이미지의 크기인 224x224로 변환시켜주는 코드입니다.<br>
 > 코랩에는 categorize_img.py 코드를 거쳐 스타일 별로 카테고리를 나눈 후, `resized_categorized_data` 폴더로 업로드 해두겠습니다.
+
+## Update 5 (2024/10/09)
+> 기존 'categorize_img.py'를 실행하면 label이 27개로 분류되었습니다.<br>
+> gender는 다르나 style이 겹치는 문제가 있는 것이 확인되어 현재는 {style}_{gender} 형식으로 31개의 label이 분류되도록 수정되었습니다.<br>
