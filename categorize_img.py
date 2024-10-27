@@ -3,7 +3,7 @@ import shutil
 
 def categorize_imgs(src, dest_dir):
     # src_folder 지정
-    src_folder = os.path.join('/Users/leehyunseung/Data_Creator_Camp/resized_data', src)
+    src_folder = os.path.join("C:/Users/prohe/OneDrive/Desktop/github_manage/DCC/b_pad_resized_data", src)
     
     # dest_folder 지정(폴더가 없다면 생성)
     dest_folder = os.path.join(dest_dir, src)
@@ -45,7 +45,7 @@ def categorize_imgs(src, dest_dir):
 
 if __name__ == "__main__":
     # 데이터가 묶여서 저장될 폴더
-    dest_dir = '/Users/leehyunseung/Data_Creator_Camp/categorized_data'
+    dest_dir = 'C:/Users/prohe/OneDrive/Desktop/github_manage/DCC/b_pad_categorized_data'
     # 새로 만들어질 폴더가 없다면 생성
     if not os.path.exists(dest_dir):
         os.makedirs(dest_dir)

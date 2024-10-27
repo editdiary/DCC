@@ -37,8 +37,8 @@ def resize_imgs(origin_path, dest_path):
 if __name__ == "__main__":
     # path 지정
     MAIN_PATH = "C:/Users/prohe/OneDrive/Desktop/github_manage/DCC"
-    origin_path = os.path.join(MAIN_PATH, "dataset")
-    dest_folder = os.path.join(MAIN_PATH, "resized_data")
+    origin_path = os.path.join(MAIN_PATH, "b_pad_data")
+    dest_folder = os.path.join(MAIN_PATH, "b_pad_resized_data")
 
     # 새로 resized 된 파일을 저장할 폴더가 없다면 생성
     if not os.path.exists(dest_folder):
