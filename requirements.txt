@@ -498,7 +498,7 @@ torch==2.5.0+cu121
 torchaudio==2.5.0+cu121
 torchsummary==1.5.1
 torchvision==0.20.0+cu121
-tornado==6.3.3
+tornado==6.4.2
 tqdm==4.66.5
 traitlets==5.7.1
 traittypes==0.2.1
